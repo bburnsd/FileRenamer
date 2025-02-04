@@ -9,6 +9,9 @@ from pyupdater.client.downloader import FileDownloader
 import requests  # Import requests for GitHub API
 from packaging import version  # Import version for version comparison
 
+#This is v0.1.1 File Renamer by Brad Davis
+#Capabilities of this program are straight forward and in the README.md
+
 class FileRenamerApp:
     def __init__(self, root):
         self.root = root
@@ -296,7 +299,7 @@ class FileRenamerApp:
 class ClientConfig:
     PUBLIC_KEY = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIC8aFS6fp2FD/OlNfjmJhUVflVTqKUPEsE2wIkxzgX+o"
     APP_NAME = "FileRenamer"
-    APP_VERSION = "0.1.0"
+    APP_VERSION = "0.1.1"
     UPDATE_URLS = ["https://github.com/bburnsd/FileRenamer/releases/latest"]
 
 # Create the main window
